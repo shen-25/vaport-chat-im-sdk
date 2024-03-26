@@ -1,4 +1,3 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { useImClient } from "./im/core/use-im-client";
 
-createApp(App).mount('#app')
+export { useImClient };
